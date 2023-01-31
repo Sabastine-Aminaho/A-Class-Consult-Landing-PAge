@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700;1,800;1,900&display=swap");
+:root {
+  /*--------- Color variable ---------*/
+  --blue-color: #33467b;
+  ---light--blue-color: #69788F;
+  /*---------- Font size ------------*/
+  ---heading--font-size: 1.5rem;
+  ---paragraph--font-size: 1rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  /*--------------- Hero section start -----------------*/
+  /*--------------- Hero section end -----------------*/
+  /*------------------Services section start  ------------*/
+  /*------------------Services section end  ------------*/
+  /*------------------------Sub services start ---------------- --*/
+  /*------------------------Sub services end ---------------- --*/
+}
+body img {
+  width: 100%;
+  height: 0 auto;
+}
+body .heading {
+  font-weight: 600;
+}
+body .para-line {
+  color: var(---light--blue-color);
+  font-size: var(---paragraph--font-size);
+}
+body .white {
+  color: #ffffff;
+}
+body a {
+  text-decoration: none;
+  color: #ffffff;
+}
+body a:hover {
+  color: #ffffff;
+}
+body .btns {
+  background-color: #ffffff;
+  padding: 0.8rem 2.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+body .btns a {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.2rem;
+  font-family: "Poppins", sans-serif;
+}
+body .border-btns {
+  border: 2px solid rgb(202, 32, 32);
+  margin: 1.5rem 0;
+  transition: 0.5s;
+}
+body .border-btns:hover {
+  background: rgb(202, 32, 32);
+}
+body .border-btns:hover a {
+  color: #ffffff;
+}
+body .hero {
+  height: 80vh;
+  width: 100%;
+  background-image: url(../photo/pic8.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+body .hero .containers {
+  position: relative;
+  height: 80vh;
+  width: 100%;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+body .hero .containers .para-line {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  margin: 1rem 0 1rem 0;
+  width: 50%;
+}
+body .service-container {
+  background-image: url(../photo/category-bg-dark.png);
+}
+body .service-container .service-header {
+  letter-spacing: 1.5px;
+}
+body .sub-services img, body .sub-services2 img, body .sub-services3 img {
+  border-radius: 40px;
+}
+body .success-section {
+  background-image: url(../photo/category-bg-dark.png);
+  background-position: left;
+}
+body .success-section .success-description {
+  font-size: 1.2rem;
+}
+body .team-section .team-description {
+  font-size: 1.2rem;
+}
+body .team-section .team-card-detail {
+  letter-spacing: 2px;
+}
+body .testimony-section {
+  background-image: url(../photo/category-bg-dark.png);
+  background-position: left;
+}
+body .testimony-section .testimony-description {
+  font-size: 1.2rem;
+}
+body .testimony-section .client-testimony img {
+  width: 50px;
+}/*# sourceMappingURL=style.css.map */
